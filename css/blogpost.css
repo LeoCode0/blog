@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-principal{
+    width: 90%;
+    height: 70vh;
+    background: url("../assets/Imágenes/lorenzo-herrera-p0j-mE6mGo4-unsplash-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/* .img-principal img{
+    width: 90%;
+} */
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.principal h3{
+    border-bottom: 1px solid gray;
+}
